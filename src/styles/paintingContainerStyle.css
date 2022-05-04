@@ -1,0 +1,18 @@
+@media(max-width: 376px) {
+ 
+  .painting-info {
+    text-align: center;
+  }
+  .container {
+    margin: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  
+  .photo {
+    width: 100%;
+    object-fit: contain;
+  }
+
+}

@@ -1,0 +1,21 @@
+@media (max-width: 391px) {
+  .menu {
+    position: fixed;
+    top: 0 ;
+    height: 8%;
+    width: 100%;
+    background-color: #F5F5F5;
+  }
+
+  .navlinks {
+    display: flex;
+    background-color: #aeaeae;
+    justify-content: start;
+    list-style: none;
+  }
+
+  .navlinks li {
+    margin: 2rem 1rem;
+    background-color: transparent;
+  }
+}

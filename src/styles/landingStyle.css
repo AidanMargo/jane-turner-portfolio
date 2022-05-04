@@ -1,0 +1,36 @@
+.hero {
+  font-size: 2rem;
+  color: #BD6087;
+  font-weight: bold;
+}
+
+.intro {
+  padding: 1rem;
+  width: 100%;
+}
+
+
+.img-container img {
+  width: 90%;
+  object-fit: contain;
+  margin: 1rem 0;
+  display: block;
+}
+
+.landing-btn {
+  background-color: rgba(189, 96, 135, 0.7);
+  padding: 0.9rem;
+  width: 33%;
+  left: 0;
+  margin-bottom:1.4rem ;
+}
+
+a, a:visited  {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+.landing-btn span {
+  background-color: transparent;
+}

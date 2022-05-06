@@ -5,10 +5,11 @@ export default function Menu({menu}) {
  return (
     <div className='menu'>
       <ul className='navlinks'>
-        <li>Home</li>
-        <li>Gallery</li>
-        <li>News</li>
-        <li>Contact</li>
+        <a href="/"><li>Home</li></a>
+        <a href="/about"><li>About</li></a>
+        <a href="/gallery"><li>Gallery</li></a>
+        <a href="/news"><li>News</li></a>
+        <a href="/contact"><li>Contact</li></a>
       </ul>
    </div>
  ) 

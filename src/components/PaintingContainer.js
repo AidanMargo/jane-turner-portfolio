@@ -7,10 +7,11 @@ import stargazer from '../assets/Stargazer.jpg'
 import untitled1 from '../assets/Untitled1.jpg'
 import untitled2 from '../assets/Untitled2.jpg'
 
-function paintingContainer() {
+function Paintingcontainer() {
 
   const images = [
     {
+      id: 1,
       name: 'Untitled',
       source: untitled2,
       material: 'Oil',
@@ -18,6 +19,7 @@ function paintingContainer() {
       sold: true
     },
     {
+      id: 2,
       name: 'Stargazer',
       source: stargazer,
       material: 'Oil',
@@ -25,6 +27,7 @@ function paintingContainer() {
       sold: true
     },
     {
+      id: 3,
       name: 'Lipstick',
       source: lipstick,
       material: 'Oil',
@@ -32,6 +35,7 @@ function paintingContainer() {
       sold: false
     },
     {
+      id: 4,
       name: 'Untitled',
       source: untitled1,
       material: 'Oil',
@@ -39,6 +43,7 @@ function paintingContainer() {
       sold: false
     },
     {
+      id: 5,
       name: 'Ginger',
       source: ginger,
       material: 'Oil',
@@ -46,6 +51,7 @@ function paintingContainer() {
       sold: false
     },
     {
+      id: 6,
       name: 'Orchid',
       source: orchid,
       material: 'Oil',
@@ -57,11 +63,11 @@ function paintingContainer() {
   return(
     <div className="container">
       
-      {/* {images.map(pic => <Painting info={pic}/>)} */}
+      {images.map(pic => <Painting key={pic.id} info={pic}/>)}
       
     </div>
 
   )
 }
 
-export default paintingContainer
+export default Paintingcontainer

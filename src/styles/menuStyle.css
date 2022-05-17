@@ -10,7 +10,7 @@
   .navlinks {
     display: flex;
     background-color: #aeaeae;
-    justify-content: start;
+    flex: start;
     list-style: none;
   }
 

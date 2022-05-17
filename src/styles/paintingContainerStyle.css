@@ -1,18 +1,18 @@
-@media(max-width: 376px) {
+@media(max-width: 391px) {
  
   .painting-info {
+    margin: 3rem 1rem;
     text-align: center;
   }
+
   .container {
-    margin: 1.2rem;
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em;
+    grid-template-columns: 1fr 1fr;
   }
   
   .photo {
     width: 100%;
-    object-fit: contain;
+    height: 100%;
   }
 
 }

@@ -7,14 +7,14 @@
     background-color: #F5F5F5;
   }
 
-  .navlinks {
+  .menu-links {
     display: flex;
     background-color: #aeaeae;
     flex: start;
     list-style: none;
   }
 
-  .navlinks li {
+  .menu-links li {
     margin: 2rem 1rem;
     background-color: transparent;
   }

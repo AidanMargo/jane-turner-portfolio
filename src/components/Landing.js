@@ -7,16 +7,18 @@ function Landing() {
     <>
       <div className="intro">
 
+            <p className="hero">Fine Artist and Instructor based in Fort Worth.</p>
+          <div className="landing-info">
+            <br></br>
+            <p>Capturing the world with oil and canvas is a skill not many have mastered quite lane Jane Turner has. 
+            Her experience and detailed observations speak for themselves, as each one of her works demands to be seen.</p>
           
-          <p className="hero">Fine Artist and Instructor based in Fort Worth.</p>
-          <br></br>
-          <p>Capturing the world with oil and canvas is a skill not many have mastered quite lane Jane Turner has. 
-          Her experience and detailed observations speak for themselves, as each one of her works demands to be seen.</p>
-        
 
-        <div className='img-container'>
-          <img src={lipstick} alt="painting"/>
-        </div>
+          <div className='img-container'>
+            <img src={lipstick} alt="painting"/>
+          </div>
+
+            </div>
       </div>
 
       <Link to="/gallery">

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 @media (max-width: 391px) {
   nav {
     display: flex;
@@ -11,10 +13,9 @@
   .nav-links {
     display: none;
   }
-  /* Menu dropdown */
+
 
   /* Menu Icon and animation */
-  
   .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
@@ -45,8 +46,8 @@
     color: #343434;
   }
   
-  .nav-header {
-    background-color: transparent;
+  nav h3 {
+    font-family: 'Playfair Display', serif;
   }
   
   .header-name, .subtitle {
@@ -78,12 +79,17 @@
     justify-content: space-between ;
     width: 100%
   }
+
+  nav h3 {
+    font-family: 'Playfair Display', serif;
+  }
+  
   .menu-icon {
     display: none;
   }
 
   .nav-links {
-    width: 50%;
+    width: 40%;
     justify-content: space-evenly;
   }
 

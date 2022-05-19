@@ -8,7 +8,7 @@
     margin: 1em 0;
     font-size: 2.25rem;
     font-weight: 600;
-    color: #BD6087;
+    color: #457979;
   }
 
   .about-container img {
@@ -20,7 +20,7 @@
 
   .name {
     font-size: 1.5rem;
-    color: #BD6087;
+    color: #457979;
     font-weight: 700;
   }
 
@@ -34,6 +34,67 @@
     margin: 1.5em 10px;
     padding: 0.5em 10px;
   }
+  blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+}
+@media(min-width: 391px) {
+  .about-container {
+    padding: 1rem;
+  }
+
+  .about-container h2 {
+    margin: 1em 3.5em;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #457979;
+  }
+
+  .about-container img {
+    width: 30%;
+    object-fit: contain;
+    margin: 1rem 0;
+    display: block;
+  }
+
+  .name {
+    font-size: 2rem;
+    color: #457979;
+    font-weight: 700;
+  }
+
+  .about-container p, blockquote {
+    margin-bottom: 0.75rem;
+    width: 50%;
+  }
+
+  .about-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .about-text {
+    font-size: 1.1rem;
+    min-width: 50%;
+    width: min-content;
+  }
+
+  blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #996767;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+  }
+
   blockquote:before {
     color: #ccc;
     content: open-quote;

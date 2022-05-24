@@ -16,10 +16,10 @@ function App() {
 
   return (
     <div className="App">
-     {menu && <Menu />}
-      <Nav menu={menu} setMenu={setMenu}/>
 
      <BrowserRouter>
+     {menu && <Menu />}
+      <Nav menu={menu} setMenu={setMenu}/>
       <Routes>
        <Route path="/" element={<Landing/>}/>
        <Route path="/gallery" element={<Paintingcontainer />}/>

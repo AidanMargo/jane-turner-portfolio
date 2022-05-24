@@ -16,3 +16,25 @@
   }
 
 }
+
+@media(min-width: 391px) {
+ 
+  .painting-info {
+    margin: 3rem 1rem;
+    text-align: center;
+  }
+
+  .painting-info > h5 {
+    font-size: 1rem;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .photo {
+    width: 50%;
+    height: 100%;
+  }
+
+}

@@ -17,3 +17,33 @@
   }
 
 }
+@media (min-width: 391px) {
+
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 1rem;
+    width: 45%;
+  }
+
+  textarea {
+    min-width: 80%;
+    max-width: 100%;
+  }
+
+  :is(input, textarea) {
+    border: 1px solid black;
+    padding: .75rem;
+    margin: 0.5rem;
+  }
+    
+  .name-fields input {
+    min-width: 45%;
+  }
+
+}

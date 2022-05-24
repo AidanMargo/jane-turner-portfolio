@@ -20,16 +20,17 @@ function Contact() {
     e.preventDefault()
     console.log(contactData)
   }
+
   return(
-    <div>
+    <div className='form'>
       <form onSubmit= {(e) => submitForm(e)} className='contact-form'>
         <label htmlFor="name">Name *</label>
         <div className="name-fields" name="name">
-          <input onChange={(e) => handleChange(e)} value={contactData.firstName} name ="firstName" required/>
-          <input onChange={(e) => handleChange(e)} value={contactData.lastName} name="lastName" required/>
+          <input onChange={(e) => handleChange(e)} placeholder="First" value={contactData.firstName} name ="firstName" required/>
+          <input onChange={(e) => handleChange(e)} placeholder="Last" value={contactData.lastName} name="lastName" required/>
         </div>
         <label htmlFor="email">Email Address *</label>
-        <input onChange={(e) => handleChange(e)} value={contactData.email} name="email"/>
+        <input onChange={(e) => handleChange(e)} placeholder="JohnDoe@email.com" value={contactData.email} name="email"/>
         <label htmlFor="message">Message *</label>
         <textarea onChange={(e) => handleChange(e)} value={contactData.message} name="message"/>
       </form>

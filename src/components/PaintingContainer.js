@@ -1,5 +1,5 @@
 import '../styles/paintingContainerStyle.css'
-import Painting from './painting'
+import Painting from './Painting'
 import ginger from '../assets/Ginger.jpg'
 import lipstick from '../assets/Lipstick.jpg'
 import orchid from '../assets/Orchid.jpg'

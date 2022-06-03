@@ -1,4 +1,4 @@
-@media (max-width: 391px) {
+@media only screen and  (max-width: 768px) {
 
   .contact-form {
     display: flex;
@@ -17,7 +17,7 @@
   }
 
 }
-@media (min-width: 391px) {
+@media only screen and  (min-width: 768px) {
 
   .form {
     display: flex;

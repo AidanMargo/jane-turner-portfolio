@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-@media (max-width: 391px) {
+@media only screen and  (max-width: 768px) {
   nav {
     display: flex;
     padding: 1rem 0.75rem 0 0.75rem;
@@ -71,7 +71,7 @@
     }
 }
 
-@media (min-width: 391px) {
+@media only screen and  (min-width: 768px) {
 
   nav {
     display: flex;

@@ -1,4 +1,4 @@
-@media(max-width: 391px) {
+@media only screen and (max-width: 768px) {
   .hero {
     font-size: 2rem;
     color: #BD6087;
@@ -38,7 +38,7 @@
 }
 
 /* Larger than mobile screens */
-@media(min-width: 391px) {
+@media only screen and (min-width: 768px) {
 
     nav {
       margin: 1rem 1rem 0.25rem 1rem
